@@ -1,0 +1,19 @@
+git init
+git config --global user.name
+git config --global user.email
+git add . tai git add tiedosto1 tiedosto2
+git commit -m "viesti tähän"
+git tag "tagin nimi"
+git tag -a v2 -m "viesti"
+git checkout "commit"
+git restore "tiedoston_nimi" revert file to last commit
+git restore --staged "tiedoston_nimi" undo git add "tiedoston_nimi"
+git status
+git log --oneline
+git reflog
+git branch -d "nimi" tuhoaa branchin
+git revert "commit hash"
+git reset -- hard tai --soft "commit hash", hard reset poistaa tiedostot ja soft säästää
+git stash 
+git stash pop tuo stashatut tiedostot takaisin
+git remote "repon nimi" url: esim. https://github.com/peliohjelmointi/temp_repo.git
