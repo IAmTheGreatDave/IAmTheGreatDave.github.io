@@ -1,0 +1,15 @@
+
+h1 {
+    color: red;
+    background-color: black;  
+}
+p#eka {
+    color: red;
+}
+.toka {
+    color: blue;
+}
+p  {
+    font-size: 2rem;
+    color: green;
+}
